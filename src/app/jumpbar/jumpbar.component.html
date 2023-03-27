@@ -1,0 +1,17 @@
+<div style="display: flex; justify-content: space-between; width: 100%">
+
+  <div>
+    <button (click)="start()"><<</button>
+  </div>
+  <div style="display: flex;">
+    <div>
+      <button (click)="previous()" [disabled]="this.currentLectureId === 0">Previous</button>
+    </div>
+    <div>
+      <button (click)="next()" [disabled]="this.currentLectureId === this.lectures.length - 1">Next</button>
+    </div>
+  </div>
+  <div>
+    <button (click)="end()">>></button>
+  </div>
+</div>

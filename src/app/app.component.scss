@@ -1,0 +1,13 @@
+.main{
+  width: 95%;
+  height: 100%;
+  overflow: auto;
+  background: beige;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.main:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
